@@ -10,7 +10,7 @@ services:
 
   mute_api_server:
     build: ./api_server_v4
-    container_name: mute_api_server
+    container_name: redis-mute-api-server
     ports:
       - 8088:8088
     restart: always
